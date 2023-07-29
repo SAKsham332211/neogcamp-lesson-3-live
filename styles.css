@@ -2,6 +2,7 @@
 :root {
     --primary-color: red;
     --secondary-color: yellow;
+    --off-white-color: #e2e8f0;
 }
 
 body {
@@ -102,4 +103,43 @@ h3 {
 .link {
     color:white;
     text-decoration: none;
+}
+
+/** hero **/
+
+.hero {
+    padding-left: 2rem;
+}
+
+.hero .hero-img {
+    max-width: 350px;
+    text-align: center;
+    display: block;
+    margin:auto;
+}
+
+.hero-heading {
+    text-align: center;
+    font-weight: bolder;
+    font-size:xx-large;
+    background-color: aqua;
+    color: orange;
+    padding: 1rem;
+}
+/** section **/
+
+.section {
+    padding: 2rem;
+}
+
+.section h1 {
+    text-align: center;
+}
+
+.new {
+    background-color: var(--off-white-color);
+}
+
+.polo {
+    text-align: center;
 }
