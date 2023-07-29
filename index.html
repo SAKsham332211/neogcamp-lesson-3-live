@@ -4,9 +4,12 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Component Library</title>
+    
+    <link href="styles.css" rel="stylesheet" />
 
-    <link href="styles.css" rel="styleshee>t" />
+   
 </head>
+
 <body>
     <h1>Welcome to Saksham Sharma Component Library</h1>
     <p>I am attending the neog.camp And I want to make a library which would make all 
@@ -18,8 +21,9 @@
 
      <h1>This is the biggest heading</h1>
      <h2>This is the second biggest</h2>
-     <p> Let me show you the normal text. this is free flowing and will 
+     <p>Let me show you the normal text. this is free flowing and will 
      wrap at the end like a paragraph.</p>
+     <p>This paragraph will have a <strong>bold</strong> text</p>
      <small> This is realtively smaller text</small>
 
      <hr >
@@ -27,16 +31,16 @@
      <h2>@Containers</h2>
 
      <h3>Fluid container</h3>
-     <div>This is a fluid container and it will go till the end of the page</div>
+     <div class="container-fluid">This is a fluid container and it will go till the end of the page</div>
 
      <h3>center container</h3>
-     <div>This is a fluid container and it will go till the specified width</div>
+     <div class="container">This is a fluid container and it will go till the specified width</div>
 
      <hr >
 
      <h2>@Links</h2>
-     <a href="/">Primary link</a>
-     <a href="/">Secondary link</a>
+     <a class="primary-link" href="/">Primary link</a>
+     <a class="secondary-link" href="/">Secondary link</a>
 
      <hr >
 
@@ -44,7 +48,7 @@
 
      <h3>unordered list</h3>
 
-     <ul>
+     <ul class="bullet">
         <li>Item one</li>
         <li>Item two</li>
         <li>Item three</li>
@@ -55,10 +59,10 @@
 
      <h3>unordered inline list</h3>
 
-     <ul>
-        <li>inline Item one</li>
-        <li>inline Item two</li>
-        <li>inline Item three</li>
+     <ul class="bullet">
+        <li class="item-inline">inline Item one</li>
+        <li class="item-inline">inline Item two</li>
+        <li class="item-inline">inline Item three</li>
 
      </ul>
 
@@ -66,23 +70,26 @@
 
      <h3>reverse ordered list</h3>
 
-     <ol>
-        <li>milk</li>
-        <li>butter</li>
-        <li>bread</li>
+     <ol class="reversed">
+        <li class="the-reverse-order">milk</li>
+        <li class="the-reverse-order">butter</li>
+        <li class="the-reverse-order">bread</li>
      </ol>
 
      <hr >
 
      <h2>@nav</h2>
-     <nav>
-        <div>IAMBrand</div>
-        <ul>
-            <li>
-                <a href="/">product</a>
+     <nav class="navigation">
+        <div class="nav-brand">IAMBrand</div>
+        <ul class="list-non-bullet">
+            <li class="list-item-inline">
+                <a class="link" href="/">home</a>
             </li>
-            <li>
-                <a href="/">about</a>
+            <li class="list-item-inline">
+                <a class="link" href="/">product</a>
+            </li>
+            <li class="list-item-inline">
+                <a class="link" href="/">about</a>
             </li>
         </ul>
      </nav>
