@@ -9,6 +9,7 @@ body {
     font-family: 'Borel', cursive;
 font-family: 'Montserrat', sans-serif;
 font-family: 'Oswald', sans-serif;
+margin: 0px;
 }
 
 hr {
@@ -105,7 +106,7 @@ h3 {
     text-decoration: none;
 }
 
-/** hero **/
+/** header **/
 
 .hero {
     padding-left: 2rem;
@@ -140,6 +141,30 @@ h3 {
     background-color: var(--off-white-color);
 }
 
-.polo {
-    text-align: center;
+/** footer **/
+
+.footer {
+    list-style: none;
 }
+
+.footer-header {
+    text-align: center;
+    background-color: yellow;
+    color: red;
+    font-size: x-large;
+    font-weight: bolder;
+    padding: 2rem;
+
+}
+
+.list-non-bullet {
+    list-style: none;
+}
+
+.list-item-inline {
+    display: inline;
+    text-align: right; 
+    padding: 1rem;
+    color: white;
+    background-color: black;
+} 
